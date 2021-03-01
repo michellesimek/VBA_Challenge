@@ -11,3 +11,4 @@ The script loops through each worksheets and outputs the following:
 * Yearly change of price from opening to closing for each ticker
 * Percent change of price from opening to closing for each ticker
 * Total stock volume for each ticker 
+
