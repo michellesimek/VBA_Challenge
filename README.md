@@ -18,7 +18,13 @@ To find the ticker symbol, a script was created to loop through row each in the 
 ### Yearly Change 
 To find the yearly change in price from opening to closing, the opening price (listed as inital_price in script) was subtracted from the closing price.
 
+This column was formatted to show positive changes in green and negative changes in red. 
+
 ### Percent Change
 To find the percent change in price, the yearly change value was divided by the opening price (listed as inital_price in script) and turned into a percentage. 
 
 ### Total Stock Volume
+The total stock volume of each ticker was found by adding the volume of each indiviudal date from each ticker.
+
+### Summary Table of Results
+A summary table was created to show which ticker has the greatest percent increase, greatest percent decrease, and greatest total stock volume.
