@@ -8,7 +8,17 @@ This project included creating a VBA script that would run on every worksheet in
 
 The script loops through each worksheets and outputs the following:
 * Ticker symbol
-* Yearly change of price from opening to closing for each ticker
-* Percent change of price from opening to closing for each ticker
+* Yearly change in price from opening to closing for each ticker
+* Percent change in price from opening to closing for each ticker
 * Total stock volume for each ticker 
 
+### Ticker Symbol
+To find the ticker symbol, a script was created to loop through row each in the first column. When the row below did not match the row above, the ticker symbol for the row above would appear in a running list in Column H.
+
+### Yearly Change 
+To find the yearly change in price from opening to closing, the opening price (listed as inital_price in script) was subtracted from the closing price.
+
+### Percent Change
+To find the percent change in price, the yearly change value was divided by the opening price (listed as inital_price in script) and turned into a percentage. 
+
+### Total Stock Volume
